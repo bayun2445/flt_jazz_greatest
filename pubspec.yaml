@@ -58,6 +58,19 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  assets:
+    - asset/image/bill_evans.jpg
+    - asset/image/billy_strayhorn.jpg
+    - asset/image/charles_mingus.jpg
+    - asset/image/chick_corea.jpg
+    - asset/image/count_basie.jpg
+    - asset/image/duke_ellington.jpg
+    - asset/image/mary_lou.jpg
+    - asset/image/miles_davies.jpg
+    - asset/image/profile_image.jpg
+    - asset/image/thad_jones.png
+    - asset/image/thelonious_monk.jpg
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
