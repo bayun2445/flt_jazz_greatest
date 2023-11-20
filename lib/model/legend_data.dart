@@ -1,24 +1,24 @@
 class Legend {
-  String? name;
-  String? birthName;
-  String? born;
-  String? died;
-  String? yearsActive;
-  String? instrument;
-  String? popularSong;
-  String? summary;
-  String? image;
+  String name;
+  String birthName;
+  String born;
+  String died;
+  String yearsActive;
+  String instrument;
+  String popularSong;
+  String summary;
+  String image;
 
   Legend({
-    this.name,
-    this.birthName,
-    this.born,
-    this.died,
-    this.yearsActive,
-    this.instrument,
-    this.popularSong,
-    this.summary,
-    this.image,
+    required this.name,
+    required this.birthName,
+    required this.born,
+    required this.died,
+    required this.yearsActive,
+    required this.instrument,
+    required this.popularSong,
+    required this.summary,
+    required this.image,
   });
 }
 
@@ -57,7 +57,7 @@ List<Legend> legendList = [
     popularSong: "In a Silent Way",
     summary:
     "Miles Davis was an American jazz trumpeter, bandleader, and composer who was one of the most influential figures in the history of jazz...",
-    image: "asset/image/miles_davis.jpg",
+    image: "asset/image/miles_davies.jpg",
   ),
   Legend(
     name: "Billy Strayhorn",
@@ -81,7 +81,7 @@ List<Legend> legendList = [
     popularSong: "A Child is Born",
     summary:
     "Thad Jones was an American jazz trumpeter, composer, and bandleader who was a prominent figure in the jazz scene during the mid-20th century...",
-    image: "asset/image/thad_jones.jpg",
+    image: "asset/image/thad_jones.png",
   ),
   Legend(
     name: "Charles Mingus",
