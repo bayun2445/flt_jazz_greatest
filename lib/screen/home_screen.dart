@@ -1,4 +1,5 @@
 import 'package:flt_jazz_greatest/model/legend_data.dart';
+import 'package:flt_jazz_greatest/screen/about_screen.dart';
 import 'package:flt_jazz_greatest/screen/component/item_legend.dart';
 import 'package:flt_jazz_greatest/screen/detail_screen.dart';
 import 'package:flutter/material.dart';
@@ -33,13 +34,16 @@ class _HomeScreenState extends State<HomeScreen> {
             "Jazz Greatest",
             style: TextStyle(
               fontFamily: fontTextMeOne,
+              fontWeight: FontWeight.bold,
               color: Theme.of(context).colorScheme.onPrimary
             )
         ),
         actions: [
           IconButton(
               onPressed: () {
-                // TODO
+                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  return const AboutScreen();
+                }));
               },
               icon: Icon(
                   Icons.person,
